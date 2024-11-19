@@ -1,11 +1,12 @@
 # To-Do:
 ### src/layouts
-## Navbar responsive 
-## Footer       
+## Navbar responsive --> Pending
+## Footer --> Pending
 
 ### src/pages
-## Home
+## Home --> Pending
 
+# Details:
 ## Figma
 ### https://www.figma.com/proto/EN1zSzsyNPTcvRw8ZFs8W3/Untitled?page-id=318%3A54888&node-id=669-5157&node-type=frame&viewport=1352%2C686%2C0.13&t=RhWUdER66Nqia1KX-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=318%3A54889
 
