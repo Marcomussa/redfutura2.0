@@ -1,0 +1,35 @@
+/* Backgrounds */
+.bg-blue {
+    background: linear-gradient(to bottom, var(--main-color), #1c6a9e);
+    ;
+    border-radius: 3rem;
+    height: 500px;
+}
+
+.bg-mem {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.5) 0%,
+            transparent 50%,
+            var(--main-color)), url("../images/members_.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-prov {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.5) 0%,
+            transparent 50%,
+            var(--main-color)), url("../images/comercio_1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contact {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.5) 0%,
+            transparent 50%,
+            var(--main-color)), url("../images/suppliers.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

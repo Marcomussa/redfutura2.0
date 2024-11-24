@@ -1,0 +1,54 @@
+/* Button Red */
+.btn-red {
+    border: none;
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.animation-btn {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    padding-left: 1.2rem;
+}
+
+.animation-btn-link {
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: right 0.3s ease, opacity 0.3s ease;
+}
+
+.btn-red:hover .animation-btn {
+    transform: translateX(-15px);
+}
+
+.btn-red:hover .animation-btn-link {
+    opacity: 1;
+}
+
+/* Button Blue */
+.btn-blue {
+    background-color: var(--main-color);
+    border: none;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-blue:hover .animation-btn {
+    transform: translateX(-10px);
+}
+
+.btn-blue:hover .animation-btn-link {
+    right: 10px;
+    opacity: 1;
+}
+
+/* Button Transparent */
+.btn-transp {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}

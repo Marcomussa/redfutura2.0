@@ -12,6 +12,7 @@
 
 ## Assets
 ### https://drive.google.com/drive/folders/1_H671dfqJLdU8wXP0OUVQDrNuTHSDkFk
+### https://drive.google.com/drive/folders/1N7aIBM_6oNR5z2JEvTiulF9SITuAuqFD
 
 ## Config:
 ### npm i
