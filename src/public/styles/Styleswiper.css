@@ -1,21 +1,73 @@
-.swiper {
-    width: 80%;
-}
-
-.swiper-slide {
+.swiper-slide-category {
     text-align: center;
-    background: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, #f3f3f3, #ffffff);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 3rem;
-    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-family: var(--primary-font) !important;
+    font-weight: 700;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
+.swiper-slide-category img {
+    width: 95%;
 }
-.swiper-pagination-clickable{
+
+.swiper-pagination-clickable {
     display: none;
+}
+
+.card-swipper {
+    width: 25%;
+}
+
+.swiper-category {
+    width: 90%;
+}
+/* Swiper Learn-More */
+.swiper-learn img{
+    width: 100% ;
+    height: auto;
+}
+.swiper-slide-learn{
+    border-radius: 3rem;
+}
+/* Swiper Testimonials */
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.quote-icon {
+    font-size: 2rem;
+    color: #00568c;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+.stars {
+    color: #246a96;
+    font-size: 1.2rem;
+}
+
+.text-warranty {
+    font-size: 0.8rem;
+    padding-bottom: 3rem;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.9rem;
+    background: linear-gradient(to left, var(--main-color), #226691);
+    border-radius: 0px 0px 0px 20px !important
+}
+
+.firts-slider {
+    transform: scale(1.1) !important;
+    margin-left: 1rem;
 }

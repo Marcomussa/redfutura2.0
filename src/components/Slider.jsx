@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useRef} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
@@ -14,30 +14,82 @@ import Table from "../public/images/slider/patio-square-card-table.h03.webp"
 import Tv from "../public/images/slider/tv-max2020.h03.webp"
 
 export default function Slider() {
+  const sliderRef = useRef(null)
+
+  useEffect(() => {
+    const slider = sliderRef.current
+    let sliderWidth = slider.offsetWidth
+    let totalWidth = slider.scrollWidth
+
+    const moveSlider = () => {
+      if (slider.scrollLeft >= totalWidth - sliderWidth){
+        slider.scrollLeft = 0
+      } else{
+        slider.scrollLeft += 3
+      }
+    }
+    const interval = setInterval(moveSlider, 2);
+
+    return () => {
+      clearInterval(interval);
+    };
+  })
   return (
     <>
       <Swiper
         slidesPerView={4}
-        spaceBetween={15}
-        loop={true}
+        spaceBetween={25}/* 
+        loop={true} */
         pagination={{
           clickable: true,
-        }}
+        }}/* 
         autoplay={{
-          delay: 1,
+          delay: 0,
           disableOnInteraction: false,
-        }}
-        speed={3000}
-        modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        }} *//* 
+        speed={1500} */
+        modules={[Pagination/* , Autoplay */]}
+        className="mySwiper swiper-category"
+        ref={sliderRef}/* 
+        breakpoints={{
+          500: { slidesPerView: 2 }
+        }} */
       >
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={Tv} alt="Teconologia" /><p className='pb-4 fw-bold'>Teconologia</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={Cordless} alt="Electrodomesticos" /> <p className='pb-4 fw-bold'>Electrodomesticos</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={AirConditioner} alt="Climatizacion" /><p className='pb-4 fw-bold'>Climatizacion</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={HairDryer} alt="Salud,Belleza,Fitness" /><p className='pb-4 fw-bold'>Salud,Belleza,Fitness</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={Bed} alt="Muebles y Colchones" /><p className='pb-4 fw-bold'>Muebles y Colchones</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={Table} alt="Hogar" /><p className='pb-4 fw-bold'>Hogar</p></SwiperSlide>
-        <SwiperSlide className='shadow p-3 mb-5 bg-body'><img src={Bicycle} alt="Rodado" /><p className='pb-4 fw-bold'>Rodado</p></SwiperSlide>
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={Tv} alt="Teconologia" />
+          <p className='pb-4 '>Teconologia</p>
+        </SwiperSlide>
+
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={Cordless} alt="Electrodomesticos" />
+          <p className='pb-4 '>Electrodomesticos</p>
+        </SwiperSlide>
+
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={AirConditioner} alt="Climatizacion" />
+          <p className='pb-4 '>Climatizacion</p>
+        </SwiperSlide>
+
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={HairDryer} alt="Salud,Belleza,Fitness" />
+          <p className='pb-4'>Salud,Belleza,Fitness</p>
+        </SwiperSlide>
+
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={Bed} alt="Muebles y Colchones" />
+          <p className='pb-4 '>Muebles y Colchones</p>
+        </SwiperSlide>
+
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={Table} alt="Hogar" />
+          <p className='pb-4'>Hogar</p>
+        </SwiperSlide>
+        
+        <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
+          <img src={Bicycle} alt="Rodado" />
+          <p className='pb-4 '>Rodado</p>
+        </SwiperSlide>
+        
       </Swiper>
     </>
   )

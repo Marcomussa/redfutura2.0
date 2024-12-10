@@ -2,14 +2,13 @@
 .bg-blue {
     background: linear-gradient(to bottom, var(--main-color), #1c6a9e);
     ;
-    border-radius: 3rem;
+    border-radius: 2rem;
     height: 500px;
 }
-
+/* 
 .bg-mem {
     background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0.5) 0%,
-            transparent 50%,
+            transparent 20%,
             var(--main-color)), url("../images/members_.webp");
     background-size: cover;
     background-position: center;
@@ -17,8 +16,7 @@
 
 .bg-prov {
     background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0.5) 0%,
-            transparent 50%,
+            transparent 20%,
             var(--main-color)), url("../images/comercio_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,10 +24,36 @@
 
 .bg-contact {
     background: linear-gradient(to bottom,
-            rgba(255, 255, 255, 0.5) 0%,
-            transparent 50%,
+            transparent 20%,
             var(--main-color)), url("../images/suppliers.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+ */
+.bg-arg {
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.5) 0%,
+            transparent 1%,
+            var(--main-color)), url("../images/argentina.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-mision {
+    background: linear-gradient(to bottom,
+            transparent 1%,
+            var(--main-color)), url("../images/mision.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-form {
+    background: url("../images/bg-contact.png");
+    
+    background-size: 120%; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
