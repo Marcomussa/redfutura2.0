@@ -86,8 +86,6 @@ p {
 .rounded-container {
     border-radius: 0px 20px 20px 0px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    background: white;
 }
 .text-overlay{
     position: absolute;
@@ -96,6 +94,9 @@ p {
     transform: translate(-50%, -50%);
     font-weight: bold;
     padding: 10px;
+}
+.size-about{
+    padding-inline: 20%;
 }
 /* About-Us -- End */
 
