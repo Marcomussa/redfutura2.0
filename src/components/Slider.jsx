@@ -25,7 +25,7 @@ export default function Slider() {
       if (slider.scrollLeft >= totalWidth - sliderWidth){
         slider.scrollLeft = 0
       } else{
-        slider.scrollLeft += 3
+        slider.scrollLeft += 2
       }
     }
     const interval = setInterval(moveSlider, 2);
