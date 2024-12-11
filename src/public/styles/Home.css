@@ -9,7 +9,7 @@ h1 {
 
 h2 {
     color: var(--main-color) !important;
-    font-family:var(--primary-font) !important;
+    font-family: var(--primary-font) !important;
 }
 
 h3 {
@@ -21,6 +21,7 @@ h4 {
     color: white !important;
     font-family: var(--primary-font) !important;
 }
+
 p {
     color: var(--main-color) !important;
     font-family: var(--primary-font) !important;
@@ -42,7 +43,8 @@ p {
 .navbar:hover {
     transform: translateY(-5px) !important
 }
-.nav-size{
+
+.nav-size {
     margin-left: 20%;
 }
 
@@ -50,9 +52,10 @@ p {
 
 /* Services -- Start */
 
-.bold-services{
+.bold-services {
     font-weight: 700;
 }
+
 .card {
     overflow: hidden;
     transition: transform 0.4s ease-in-out;
@@ -62,6 +65,7 @@ p {
 .card:hover {
     transform: translateY(-50px);
 }
+
 .card-img img {
     width: 100%;
 }
@@ -76,6 +80,7 @@ p {
     justify-content: center;
     align-items: start;
 }
+
 .services-row.justify-content-center {
     top: -220px
 }
@@ -87,7 +92,8 @@ p {
     border-radius: 0px 20px 20px 0px;
     overflow: hidden;
 }
-.text-overlay{
+
+.text-overlay {
     position: absolute;
     top: 50%;
     left: 21%;
@@ -95,13 +101,15 @@ p {
     font-weight: bold;
     padding: 10px;
 }
-.size-about{
+
+.size-about {
     padding-inline: 20%;
 }
+
 /* About-Us -- End */
 
 /* Contact -- Start */
-.inputs-form{
+.inputs-form {
     all: unset;
     background-color: white;
     width: 40%;
@@ -109,43 +117,62 @@ p {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     color: var(--main-color) !important;
 }
-.text-area{
+
+.text-area {
     padding-bottom: 10%;
 }
+
 /* Contact -- End */
 
 /* Footer */
 
 /*! Media queries*/
 
-@media (min-width: 481px) and (max-width: 1050px){
-    .card{
+@media (min-width: 481px) and (max-width: 1050px) {
+    .card {
         width: 120%;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         gap: 3rem;
     }
 }
-@media (min-width: 300px) and (max-width: 768px){
-    .card{
-        width: 30vh;
-        padding: 0% ;
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .card {
+        width: 25vh;
+    }
+
+    .card-content {
+        font-size: 0.8rem !important;
+
+    }
+    .card-content p{
+        font-size: 10px ;
+        margin-bottom: 0% !important;
+    }
+    .card-content h3{
+        font-size: 15px !important;
+        margin-bottom: 0% !important;
     }
     .card-swipper {
         width: 17vh !important;
         font-size: 0.7rem !important;
     }
+
     .swiper-slide-category img {
         width: 150px !important;
     }
-    .testimonial-card{
+
+    .testimonial-card {
         width: 35vh !important;
     }
-    .size-about{
+
+    .size-about {
         width: 500px !important;
         height: 200px !important;
     }
-    .rounded-container{
+
+    .rounded-container {
         height: 50vh;
         font-size: 0.8rem;
         padding: 0%;

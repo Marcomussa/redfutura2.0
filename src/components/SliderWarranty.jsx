@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
+import { RiDoubleQuotesL } from "react-icons/ri";
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -33,7 +34,7 @@ export default function App() {
         <SwiperSlide className='testimonial-card shadow position-relative firts-slider'>
           <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
-              <i className="bi bi-quote">aa</i>
+              <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
             <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
             <div className="stars mb-3">
@@ -51,7 +52,7 @@ export default function App() {
         <SwiperSlide className='testimonial-card shadow position-relative'>
           <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
-              <i className="bi bi-quote">aa</i>
+              <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
             <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
             <div className="stars mb-3">
@@ -69,7 +70,7 @@ export default function App() {
         <SwiperSlide className='testimonial-card shadow position-relative'>
         <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
-              <i className="bi bi-quote">aa</i>
+              <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
             <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
             <div className="stars mb-3">
@@ -87,7 +88,7 @@ export default function App() {
         <SwiperSlide className='testimonial-card shadow position-relative'>
         <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
-              <i className="bi bi-quote">aa</i>
+              <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
             <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
             <div className="stars mb-3">
