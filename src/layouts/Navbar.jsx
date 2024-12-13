@@ -13,8 +13,8 @@ function NavbarComponent() {
 
         <Navbar.Toggle aria-controls="navbar-nav"/>
 
-        <Navbar.Collapse id="navbar-nav">
-          <Nav className='d-flex gap-5 main-text nav-size'>
+        <Navbar.Collapse className='navbar-collapse' id="navbar-nav">
+          <Nav className='d-flex  main-text nav-size'>
             <Nav.Link>Home</Nav.Link>
             <Nav.Link>Integrantes</Nav.Link>
             <Nav.Link>Proveedores</Nav.Link>

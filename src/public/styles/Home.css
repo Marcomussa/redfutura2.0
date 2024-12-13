@@ -46,6 +46,7 @@ p {
 
 .nav-size {
     margin-left: 20%;
+    gap: 50px;
 }
 
 /* Home */
@@ -102,7 +103,7 @@ p {
     padding: 10px;
 }
 
-.size-about {
+.size-about-blue {
     padding-inline: 20%;
 }
 
@@ -135,9 +136,15 @@ p {
         flex-direction: column;
         gap: 3rem;
     }
+
+    .nav-size {
+        margin-left: 0% !important;
+        display: flex !important;
+        gap: 0px !important;
+    }
 }
 
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 768px) {
     .card {
         width: 25vh;
     }
@@ -146,14 +153,17 @@ p {
         font-size: 0.8rem !important;
 
     }
-    .card-content p{
-        font-size: 10px ;
+
+    .card-content p {
+        font-size: 10px;
         margin-bottom: 0% !important;
     }
-    .card-content h3{
+
+    .card-content h3 {
         font-size: 15px !important;
         margin-bottom: 0% !important;
     }
+
     .card-swipper {
         width: 17vh !important;
         font-size: 0.7rem !important;
@@ -168,7 +178,7 @@ p {
     }
 
     .size-about {
-        width: 500px !important;
+        width: 100% !important;
         height: 200px !important;
     }
 
@@ -176,5 +186,39 @@ p {
         height: 50vh;
         font-size: 0.8rem;
         padding: 0%;
+    }
+
+    .nav-size {
+        margin-left: 0% !important;
+        display: flex !important;
+        gap: 3px !important;
+    }
+    .size-about-blue {
+        padding-inline: 0%
+    }
+    .text-overlay{
+        position: relative;
+        margin-left: 25%
+    }
+    .text-about{
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 375px) {
+    .card {
+        width: 30vh;
+    }
+
+    .swiper-slide-category img {
+        width: 100px !important;
+    }
+
+    .swiper-learn {
+        width: 40vh !important;
+        height: 30vh !important;
+    }
+    .testimonial-card {
+        width: 45vh !important;
     }
 }

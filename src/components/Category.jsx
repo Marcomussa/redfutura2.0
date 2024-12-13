@@ -5,7 +5,7 @@ import Slider from "../components/Slider"
 const category = () => {
     return (
         <>
-            <div className="container-fluid text-center p-5 pt-0">
+            <div className="container-fluid text-center p-xl-5 pt-0">
                 <div className="row">
                     <div className="col-12">
                         <h2 className='fw-bolder pb-5'>Categorias de Producto</h2>

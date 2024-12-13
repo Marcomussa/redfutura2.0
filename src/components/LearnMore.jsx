@@ -5,9 +5,9 @@ import SliderLearnMore from "../components/SliderLearnMore"
 const LearnMore = () => {
     return (
         <>
-            <div className="container-fluid pt-5 pb-5 mb-5 px-5">
+            <div className="container-fluid pt-5 pb-5 px-5 mb-0 mb-lg-5">
                 <div className="row">
-                    <div className="col-lg-6 col-12 py-5 text-center text-lg-start">
+                    <div className="col-lg-6 col-12 py-lg-5 py-0 text-center text-lg-start">
                         <h1 className='fw-bolder'>La Red de Compras Experta en Tecnología y Hogar.</h1>
                         <h2 className='pt-3 pb-5 fs-4'>Más de 110 comercios ya conectados a proveedores nacionales e internacioles.</h2>
                         <button className='btn-red py-3 px-4 mt-3 rounded-pill fs-5'>
