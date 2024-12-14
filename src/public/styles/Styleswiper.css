@@ -33,12 +33,12 @@
 .swiper-slide-learn{
     border-radius: 3rem;
 }
+
 /* Swiper Testimonials */
 .testimonial-card {
     background-color: #fff;
     border-radius: 2rem;
 }
-
 .quote-icon {
     font-size: 2rem;
     color: #00568c;
@@ -53,7 +53,7 @@
 }
 
 .text-warranty {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding-bottom: 3rem;
 }
 
@@ -62,7 +62,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-size: 0.9rem;
+    font-size: 1rem;
     background: linear-gradient(to left, var(--main-color), #226691);
     border-radius: 0px 0px 0px 20px !important
 }

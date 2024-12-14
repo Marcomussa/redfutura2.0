@@ -25,30 +25,30 @@ const Contact = () => {
   };
   return (
     <>
-      <div className="container-fluid form py-5 bg-form">
+      <div className="container-fluid form pb-5 bg-form">
         <div className="row text-center">
           <div className="col-lg-12 main-text">
-            <h1 className='fw-bold'>Te ayudamos a impulsar el crecimiento de tu negocio!</h1>
-            <h2 className='mb-5 pb-5 mt-4 fs-4'>Sumate a Red Futura y enterate de todas nuestras novedades.</h2>
+            <h1 className='fw-bold fs-service'>Te ayudamos a impulsar el crecimiento de tu negocio!</h1>
+            <h2 className='mb-lg-5 pb-5 mt-4 fs-2'>Sumate a Red Futura y enterate de todas nuestras novedades.</h2>
           </div>
         </div>
         <div className="row">
           <div className="col-12 text-center">
-            <Form className='px-5 d-flex flex-column gap-4' ref={form} onSubmit={sendEmail}>
+            <Form className='px-lg-5 d-flex flex-column gap-4' ref={form} onSubmit={sendEmail}>
               <div>
-                <input type="text" placeholder="Nombre y Apellido" className='inputs-form px-5 py-3 rounded-4' name='user_name'/>
+                <input type="text" placeholder="Nombre y Apellido" className='inputs-form px-5 py-4 rounded-4 ' name='user_name' />
               </div>
               <div>
-                <input type="email" placeholder="Email" className='inputs-form px-5 py-3 rounded-4' name='user_email' />
+                <input type="email" placeholder="Email" className='inputs-form px-5 py-4 rounded-4 ' name='user_email' />
               </div>
               <div>
-                <input type="text" placeholder="Teléfono" className='inputs-form px-5 py-3 rounded-4' name='user' />
+                <input type="text" placeholder="Teléfono" className='inputs-form px-5 py-4 rounded-4 ' name='user' />
               </div>
               <div>
-                <input as="textarea" placeholder="Mensaje" className='inputs-form text-area px-5 pt-3  rounded-4' name='message' />
+                <input as="textarea" placeholder="Mensaje" className='inputs-form text-area px-5 pt-3  rounded-4 ' name='message' />
               </div>
               <div>
-                <button className='btn-red py-3 px-5 rounded-pill fs-5 mt-5 w-auto' type="submit" value="Send">
+                <button className='btn-red py-3 px-5 rounded-pill mt-lg-5 w-auto' type="submit" value="Send">
                   <span className='animation-btn'>Enviar</span>
                   <span className='animation-btn-link'><BsArrowRight /></span>
                 </button>

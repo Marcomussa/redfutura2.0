@@ -6,6 +6,7 @@
     color: white;
     cursor: pointer;
     font-family: var(--primary-font) !important;
+    font-size: 1.8rem;
 }
 
 .animation-btn {
@@ -35,6 +36,7 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
+    font-size: 1.7rem;
 }
 
 .btn-blue:hover .animation-btn {
@@ -69,6 +71,18 @@
 
 /* Medias */
 @media (min-width: 375px) and (max-width: 768px){
+    .btn-transp span{
+        font-size: 1rem !important;
+        padding: 0% !important;
+    }
+    .btn-red{
+        font-size: 1rem
+    }
+    .btn-blue{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 250px) and (max-width: 375px){
     .btn-transp span{
         font-size: 1rem !important;
         padding: 0% !important;

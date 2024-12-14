@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="container-fluid px-5">
                 <div className="row main-text">
                     <div className="col-lg-6">
-                        <img src={Logo} alt="Logo" width={200} />
+                        <img src={Logo} alt="Logo" width={250} />
                         <ul className='list-unstyled d-flex flex-column gap-2'>
                             <li>Direccion</li>
                             <li>Telefono</li>

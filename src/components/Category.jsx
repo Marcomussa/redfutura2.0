@@ -8,7 +8,7 @@ const category = () => {
             <div className="container-fluid text-center p-xl-5 pt-0">
                 <div className="row">
                     <div className="col-12">
-                        <h2 className='fw-bolder pb-5'>Categorias de Producto</h2>
+                        <h2 className='fw-bolder pb-5 fs-1'>Categorias de Producto</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -19,7 +19,7 @@ const category = () => {
                 </div>
                 <div className="row">
                     <div className="col-12 pt-3">
-                        <button className='btn-blue py-3 px-4 rounded-pill fs-5'>
+                        <button className='btn-blue py-3 px-4 mb-5 rounded-pill'>
                             <span className='animation-btn'>Ver Productos</span>
                             <span className='animation-btn-link'><BsArrowRight/></span>
                         </button>
