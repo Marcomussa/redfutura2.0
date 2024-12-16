@@ -1,4 +1,4 @@
-import React from 'react'
+import { React, useState, useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { RiDoubleQuotesL } from "react-icons/ri";
@@ -6,10 +6,27 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 export default function App() {
+  const [slidesPerView, setSlidesPerView] = useState(3); 
+
+  const updateSlidesPerView = () => {
+    if (window.innerWidth < 576) {
+      setSlidesPerView(1); // Móviles
+    } else if (window.innerWidth < 768) {
+      setSlidesPerView(2); // Tablets
+    } else {
+      setSlidesPerView(3); // Escritorio
+    }
+  };
+
+  useEffect(() => {
+    updateSlidesPerView(); 
+    window.addEventListener('resize', updateSlidesPerView); 
+    return () => window.removeEventListener('resize', updateSlidesPerView);
+  }, []);
   return (
     <>
       <Swiper
-        slidesPerView={'3'}
+        slidesPerView={slidesPerView}
         spaceBetween={30}
         loop={false}
         pagination={{
@@ -66,9 +83,9 @@ export default function App() {
             <p className="mb-0 text-white">Ricardo</p>
             <p className='mb-0 text-white'>Detalle</p>
           </div>
-          </SwiperSlide>
+        </SwiperSlide>
         <SwiperSlide className='testimonial-card shadow position-relative'>
-        <div className='card-warranty p-4'>
+          <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
@@ -86,7 +103,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className='testimonial-card shadow position-relative'>
-        <div className='card-warranty p-4'>
+          <div className='card-warranty p-4'>
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
@@ -103,7 +120,7 @@ export default function App() {
             <p className='mb-0 text-white'>Detalle</p>
           </div>
         </SwiperSlide>
-      </Swiper>
+      </Swiper >
     </>
   );
 }

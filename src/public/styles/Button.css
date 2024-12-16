@@ -72,7 +72,7 @@
 /* Medias */
 @media (min-width: 375px) and (max-width: 768px){
     .btn-transp span{
-        font-size: 1rem !important;
+        font-size: 0.9rem !important;
         padding: 0% !important;
     }
     .btn-red{
@@ -84,7 +84,7 @@
 }
 @media (min-width: 250px) and (max-width: 375px){
     .btn-transp span{
-        font-size: 1rem !important;
+        font-size: 0.8rem !important;
         padding: 0% !important;
     }
 }

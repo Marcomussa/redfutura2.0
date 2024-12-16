@@ -11,7 +11,7 @@ function NavbarComponent() {
       <Container className='d-flex justify-content-between ps-lg-5 m-0'>
         <Link className='link-size'> <img src={Logo} alt="Logo" className='size-logo' /></Link>
 
-        <Navbar.Toggle aria-controls="navbar-nav"/>
+        <Navbar.Toggle aria-controls="navbar-nav" className='navbar-toggler'/>
 
         <Navbar.Collapse className=''  id="navbar-nav">
           <Nav className='d-flex main-text nav-size'>
