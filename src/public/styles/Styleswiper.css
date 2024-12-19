@@ -71,7 +71,12 @@
     transform: scale(1.1) !important;
     margin-left: 1rem;
 }
-
+.card-swipper-brand img{
+    width: 70%;
+}
+.swiper-warranty{
+    padding-inline: 8% !important;
+}
 @media (min-width: 375px) and (max-width: 768px){ 
     .swiper-learn{
         height: 30vh !important;

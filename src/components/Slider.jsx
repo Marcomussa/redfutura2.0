@@ -28,7 +28,7 @@ export default function Slider() {
         slider.scrollLeft += 1
       }
     }
-    const interval = setInterval(moveSlider, 2);
+    const interval = setInterval(moveSlider, 1);
 
     return () => {
       clearInterval(interval);
@@ -56,37 +56,37 @@ export default function Slider() {
         }} */
       >
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={Tv} alt="Teconologia" />
+          <img src={Tv} alt="Teconologia"/>
           <p className='pb-4 '>Teconologia</p>
         </SwiperSlide>
 
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={Cordless} alt="Electrodomesticos" />
+          <img src={Cordless} alt="Electrodomesticos"/>
           <p className='pb-4 '>Electrodomesticos</p>
         </SwiperSlide>
 
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={AirConditioner} alt="Climatizacion" />
+          <img src={AirConditioner} alt="Climatizacion"/>
           <p className='pb-4 '>Climatizacion</p>
         </SwiperSlide>
 
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={HairDryer} alt="Salud,Belleza,Fitness" />
+          <img src={HairDryer} alt="Salud,Belleza,Fitness"/>
           <p className='pb-4'>Salud,Belleza,Fitness</p>
         </SwiperSlide>
 
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={Bed} alt="Muebles y Colchones" />
+          <img src={Bed} alt="Muebles y Colchones"/>
           <p className='pb-4 '>Muebles y Colchones</p>
         </SwiperSlide>
 
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={Table} alt="Hogar" />
+          <img src={Table} alt="Hogar"/>
           <p className='pb-4'>Hogar</p>
         </SwiperSlide>
         
         <SwiperSlide className=' mb-5 card-swipper swiper-slide-category'>
-          <img src={Bicycle} alt="Rodado" />
+          <img src={Bicycle} alt="Rodado"/>
           <p className='pb-4 '>Rodado</p>
         </SwiperSlide>
         

@@ -1,18 +1,17 @@
 import React from 'react'
-
 const AboutUs = () => {
     return (
         <>
-            <div className="container-fluid position-relative px-lg-5 px-4 pt-5  content-about">
+            <div className="container-fluid position-relative container-service pt-5  content-about">
                 <div className="row bg-blue position-relative text-center">
-                    <div className="col-12 pt-5">
-                        <h3 className='fw-bold fs-1 size-about-blue'>La Red de Compras de Mayor crecimiento en los últimos años.</h3>
-                        <p className='text-white fs-3 pt-2'>Nuestra misión, es ayudarte a crecer</p>
+                    <div className="col-12 pt-5 mt-lg-4">
+                        <h3 className='fw-bold size-about-blue'>La Red de Compras de Mayor crecimiento en los últimos años.</h3>
+                        <p className='text-white pt-2 fs-service-sub'>Nuestra misión, es ayudarte a crecer</p>
                     </div>
                 </div>
 
-                <div className="row services-row position-relative justify-content-center rounded-container mb-5 m-0 m-md-5">
-                    <div className="col-xl-5 col-md-12 bg-arg rounded-5 size-about shadow mb-2" style={{ width: '30%', height: '50vh' }} >
+                <div className="row services-row position-relative justify-content-center rounded-container mb-5 m-0 m-md-1">
+                    <div className="col-xl-5 col-md-12 bg-arg rounded-5 size-about shadow mb-lg-2" style={{ width: '30%', height: '50vh' }} >
                         <h4 className='text-overlay'>Quienes somos?</h4>
                     </div>
                     <div className="col-xl-7 col-md-12 p-3 p-lg-5 text-about rounded-5 shadow mb-2 bg-light" >
@@ -21,8 +20,8 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className="row services-row position-relative justify-content-center rounded-container m-0 m-md-5">
-                    <div className="col-xl-5 bg-mision rounded-5 size-about shadow mb-2" style={{ width: '30%', height: '50vh' }} >
+                <div className="row services-row position-relative justify-content-center rounded-container m-0 m-md-1">
+                    <div className="col-xl-5 bg-mision rounded-5 size-about shadow mb-lg-2" style={{ width: '30%', height: '50vh' }} >
                         <h4 className='text-overlay'>Nuestra Mision</h4>
                     </div>
                     <div className="col-xl-7 p-3 p-lg-5 shadow rounded-5 mb-2">

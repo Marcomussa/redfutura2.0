@@ -7,11 +7,11 @@ import { BsArrowRight } from "react-icons/bs";
 const Services = () => {
     return (
         <>
-            <div className="container-fluid position-relative px-lg-5 px-4 pt-5 mt-5 pt-lg-0 mt-lg-0">
+            <div className="container-fluid position-relative container-service pt-5 mt-5 pt-lg-0 mt-lg-0">
                 {/* Fondo */}
                 <div className="row bg-blue position-relative text-center">
                     <div className="col-lg-12 pt-5">
-                        <h3 className='fs-service fw-bolder pt-4 pt-lg-0 '>Compra al Mejor Precio en bazar, muebles y hogar.</h3>
+                        <h3 className='fs-service pt-4 pt-lg-3'>Compra al Mejor Precio en bazar, muebles y hogar.</h3>
                         <h2 className='fs-service-sub text-white pt-lg-2 pt-4'>Obtené acceso a listas de precio en tiempo real.</h2>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const Services = () => {
                 {/* Cards */}
                 <div className="row services-row position-relative justify-content-center row-service">
                     <div className="col-lg-4 p-lg-0">
-                        <div className="card rounded-5 text-white mb-5 mb-lg-0">
+                        <div className="card text-white mb-5 mb-lg-0">
                             <div className='card-img'>
                                 <img src={MembersImg} alt="Members" />
                             </div>
@@ -34,7 +34,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 p-lg-0">
-                        <div className="card rounded-5 text-white mb-5 mb-lg-0">
+                        <div className="card  text-white mb-5 mb-lg-0">
                             <div className='card-img'>
                                 <img src={Proveedores} alt="Proveedores" />
                             </div>
@@ -50,7 +50,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-lg-4 p-lg-0">
-                        <div className="card rounded-5 text-white">
+                        <div className="card  text-white">
                             <div className='card-img'>
                                 <img src={Contact} alt="Contact" />
                             </div>

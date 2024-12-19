@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Warranty = () => {
     return (
         <>
-            <div className="container pb-5">
+            <div className="container-fluid bg-warranty pb-5 pt-lg-5 bg-warranty">
                 <div className="row text-center">
                     <div className="col-12">
                         <h2 className='fw-bolder fs-1'>Nuestra Garantia</h2 >
@@ -18,7 +18,7 @@ const Warranty = () => {
                 <div className="row">
                     <div className='col-12 text-center'>
                         <button className='btn-blue py-3 px-4 rounded-pill'>
-                            <span className='animation-btn'>Ver Productos</span>
+                            <span className='animation-btn'>Ver Integrantes</span>
                             <span className='animation-btn-link'><BsArrowRight /></span>
                         </button>
                     </div>

@@ -64,8 +64,11 @@ p {
     transition: transform 0.4s ease-in-out;
     border-width: 0 !important;
     width: 95%;
+    border-radius: 3.5rem !important;
 }
-
+.container-service{
+    padding-inline: 7rem !important;
+}
 .card:hover {
     transform: translateY(-50px);
 }
@@ -87,13 +90,19 @@ p {
 }
 
 .services-row.justify-content-center {
-    top: -250px
+    top: -260px
 }
 .row-service{
     padding-inline: 4rem;
 }
 .fs-service{
-    font-size: 3.2rem;
+    font-size: 2.7rem;
+    padding-inline: 10%;
+    font-weight: 600;
+}
+.fs-service-sub{
+    font-size: 1.8rem;
+    font-weight: 400;
 }
 
 /* Services -- End */
@@ -118,7 +127,9 @@ p {
 }
 
 .size-about-blue {
+    font-size: 2.7rem;
     padding-inline: 20%;
+    font-weight: 600;
 }
 
 /* About-Us -- End */
@@ -145,6 +156,7 @@ p {
 /*! Media queries*/
 
 @media (min-width: 375px) and (max-width: 1050px) {
+
     .card {
         width: 100%;
     }
@@ -191,9 +203,7 @@ p {
     }
 
     .nav-size {
-        margin-left: 0% !important;
-        display: flex !important;
-        gap: 3px !important;
+        gap: 1px !important;
     }
     .size-about-blue {
         padding-inline: 0%
@@ -223,7 +233,7 @@ p {
         width: 80%
     }
     .nav-link{
-        font-size: 1rem !important;
+        font-size: 0.8rem !important;
     }
 }
 
@@ -237,7 +247,9 @@ p {
     .swiper-slide-category img {
         width: 100px !important;
     }
-
+    .swiper-slide-category{
+        width: 50% !important;
+    }
     .swiper-learn {
         width: 40vh !important;
         height: 30vh !important;
