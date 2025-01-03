@@ -1,6 +1,6 @@
 .swiper-slide-category {
     text-align: center;
-    background: linear-gradient(to bottom, #f3f3f3, #ffffff);
+    background: linear-gradient(to bottom, #e3e3e3, #eff0f0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,23 +8,22 @@
     font-size: 1.2rem;
     font-family: var(--primary-font) !important;
     font-weight: 700;
+    padding-block: 2rem;
 }
 
 .swiper-slide-category img {
-    width: 95%;
+    width: 70%;
 }
 
 .swiper-pagination-clickable {
     display: none;
 }
 
-.card-swipper {
-    width: 25%;
+.fs-titles{
+    font-size: 2.8rem;
+    font-weight: 600;
 }
 
-.swiper-category {
-    width: 90%;
-}
 /* Swiper Learn-More */
 .swiper-learn img{
     width: 100% ;
@@ -37,24 +36,24 @@
 /* Swiper Testimonials */
 .testimonial-card {
     background-color: #fff;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 .quote-icon {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #00568c;
     position: absolute;
-    top: -30px;
+    top: -45px;
     left: 20px;
 }
 
 .stars {
     color: #246a96;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .text-warranty {
-    font-size: 1rem;
-    padding-bottom: 3rem;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
 }
 
 .card-footer {
@@ -62,23 +61,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background: linear-gradient(to left, var(--main-color), #226691);
     border-radius: 0px 0px 0px 20px !important
 }
 
+.swiper-warranty{
+    padding-inline: 5% !important;
+}
+
 .firts-slider {
     transform: scale(1.1) !important;
-    margin-left: 1rem;
 }
+
+/* Brands */
 .card-swipper-brand img{
     width: 70%;
 }
-.swiper-warranty{
-    padding-inline: 8% !important;
+@media (min-width: 765px) and (max-width: 1279px){
+    .text-warranty {
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
 }
-@media (min-width: 375px) and (max-width: 768px){ 
+@media (min-width: 375px) and (max-width: 765px){ 
     .swiper-learn{
         height: 30vh !important;
+    }
+    .card-swipper-brand img{
+        width: 100%;
+    }
+    .text-warranty {
+        font-size: 0.8rem;
+        padding-bottom: 1rem;
+    }
+    .card-footer{
+        font-size: 1rem;
+    }
+    .swiper-slide-category{
+        padding-block: 0.5rem;
+    }
+}
+@media (min-width: 250px) and (max-width: 375px){
+    .text-warranty{
+        font-size: 1rem;
     }
 }

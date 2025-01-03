@@ -6,7 +6,7 @@
     color: white;
     cursor: pointer;
     font-family: var(--primary-font) !important;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .animation-btn {
@@ -36,7 +36,7 @@
     text-decoration: none;
     color: white;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 .btn-blue:hover .animation-btn {
@@ -60,6 +60,8 @@
     border: 1px solid rgb(255, 255, 255);
     color: white;
     border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .btn-transp:hover .animation-btn {
     transform: translateX(-10px);
@@ -69,22 +71,26 @@
     opacity: 1;
 }
 
+@media (min-width: 765px) and (max-width: 1279px){
+}
 /* Medias */
-@media (min-width: 375px) and (max-width: 768px){
+@media (min-width: 375px) and (max-width: 765px){
     .btn-transp span{
         font-size: 0.9rem !important;
-        padding: 0% !important;
     }
     .btn-red{
-        font-size: 1rem
+        font-size: 1.2rem
     }
     .btn-blue{
         font-size: 1rem;
     }
 }
+
 @media (min-width: 250px) and (max-width: 375px){
     .btn-transp span{
-        font-size: 0.8rem !important;
-        padding: 0% !important;
+        font-size: 1rem !important;
+    }
+    .btn-red{
+        font-size: 1.3rem;
     }
 }

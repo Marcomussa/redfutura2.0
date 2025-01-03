@@ -27,7 +27,7 @@ export default function App() {
     <>
       <Swiper
         slidesPerView={slidesPerView}
-        spaceBetween={30}
+        spaceBetween={40}
         loop={false}
         pagination={{
           clickable: true,
@@ -53,7 +53,7 @@ export default function App() {
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
-            <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
+            <h2 className="mt-3 fw-bolder">Quote</h2>
             <div className="stars mb-3">
               {'★ ★ ★ ★ ★'}
             </div>
@@ -61,7 +61,7 @@ export default function App() {
               Estoy super contento con el grupo. Vivo en un pueblo muy pequeño y la única forma de competir con las grandes cadenas es a través de la red. Jorge siempre se preocupa y me ayuda a conseguir nuevos proveedores.
             </p>
           </div>
-          <div className="card-footer p-3">
+          <div className="card-footer p-lg-4 ps-3 py-2">
             <p className="mb-0 text-white" >Ricardo</p>
             <p className='mb-0 text-white'>Detalle</p>
           </div>
@@ -71,7 +71,7 @@ export default function App() {
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
-            <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
+            <h2 className="mt-3 fw-bolder">Quote</h2>
             <div className="stars mb-3">
               {'★ ★ ★ ★ ★'}
             </div>
@@ -79,7 +79,7 @@ export default function App() {
               Estoy super contento con el grupo. Vivo en un pueblo muy pequeño y la única forma de competir con las grandes cadenas es a través de la red. Jorge siempre se preocupa y me ayuda a conseguir nuevos proveedores.
             </p>
           </div>
-          <div className="card-footer p-3">
+          <div className="card-footer p-lg-4 ps-3 py-2">
             <p className="mb-0 text-white">Ricardo</p>
             <p className='mb-0 text-white'>Detalle</p>
           </div>
@@ -89,7 +89,7 @@ export default function App() {
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
-            <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
+            <h2 className="mt-3 fw-bolder">Quote</h2>
             <div className="stars mb-3">
               {'★ ★ ★ ★ ★'}
             </div>
@@ -97,7 +97,7 @@ export default function App() {
               Estoy super contento con el grupo. Vivo en un pueblo muy pequeño y la única forma de competir con las grandes cadenas es a través de la red. Jorge siempre se preocupa y me ayuda a conseguir nuevos proveedores.
             </p>
           </div>
-          <div className="card-footer p-3">
+          <div className="card-footer p-lg-4 ps-3 py-2">
             <p className="mb-0 text-white">Ricardo</p>
             <p className='mb-0 text-white'>Detalle</p>
           </div>
@@ -107,7 +107,7 @@ export default function App() {
             <div className="quote-icon mb-2">
               <i className="bi bi-quote"><RiDoubleQuotesL /></i>
             </div>
-            <h2 className="mb-2 fs-5 fw-bolder">Quote</h2>
+            <h2 className="mt-3 fw-bolder">Quote</h2>
             <div className="stars mb-3">
               {'★ ★ ★ ★ ★'}
             </div>
@@ -115,7 +115,7 @@ export default function App() {
               Estoy super contento con el grupo. Vivo en un pueblo muy pequeño y la única forma de competir con las grandes cadenas es a través de la red. Jorge siempre se preocupa y me ayuda a conseguir nuevos proveedores.
             </p>
           </div>
-          <div className="card-footer p-3">
+          <div className="card-footer p-lg-4 ps-3 py-2">
             <p className="mb-0 text-white">Ricardo</p>
             <p className='mb-0 text-white'>Detalle</p>
           </div>
